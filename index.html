@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Chess Tips</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+      <div class="container">
+        <a href="#" class="navbar-brand">Chess Tips</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#learn" class="nav-link">What You'll Learn</a>
+            </li>
+            <li class="nav-item">
+              <a href="#questions" class="nav-link">Questions</a>
+            </li>
+            <li class="nav-item">
+              <a href="#instructors" class="nav-link">Instructors</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Showcase -->
+    <section
+      class="bg-dark text-light p-5 p-lg-0 pt-lg-4 text-center text-sm-start"
+    >
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div>
+            <h1>
+              Become an <span class="text-warning">Average Chess Player</span>
+            </h1>
+            <p class="my-4">
+              Barbara had been waiting at the table for twenty minutes. it had
+              been twenty long and excruciating minutes. David had promised that
+              he would be on time today. He never was, but he had promised this
+              one time. She had made him repeat the promise multiple times over
+              the last week until she'd believed his promise. Now she was paying
+              the price.
+            </p>
+            <button class="btn btn-primary btn-md mb-3">
+              Help Barbara learn Chess While She Waits
+            </button>
+          </div>
+          <img
+            class="img-fluid w-50 d-none d-sm-block"
+            src="img/showcase.svg"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="bg-primary text-light p-5">
+      <div class="container">
+        <div class="d-md-flex justify-content-between align-items-center">
+          <h5 class="w-50 mb-3 mb-md-0">
+            Fill Up your Email with Chess Tips! No more than 77 tips per day!
+          </h5>
+
+          <div class="input-group news-input">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="I wouldn't put my email here"
+            />
+            <button
+              class="btn btn-dark btn-lg"
+              type="button"
+              id="button-addon2"
+            >
+              No don't
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Boxes -->
+    <section class="p-5">
+      <div class="container">
+        <div class="row text-center g-4">
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-laptop"></i>
+                </div>
+                <h3 class="card-title mb-3">Virtual</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laudantium nemo cum veniam nobis voluptas minima.
+                </p>
+                <a href="#" class="btn btn-primary">Learn More </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md">
+            <div class="card bg-secondary text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-person-square"></i>
+                </div>
+                <h3 class="card-title mb-3">Hybrid</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laudantium nemo cum veniam nobis voluptas minima.
+                </p>
+                <a href="#" class="btn btn-dark">Learn More </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-people"></i>
+                </div>
+                <h3 class="card-title mb-3">In Person</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laudantium nemo cum veniam nobis voluptas minima.
+                </p>
+                <a href="#" class="btn btn-primary">Learn More </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Learn Sections -->
+    <section id="learn" class="p-5">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md">
+            <img src="img/chess.png" class="img-fluid" alt="" />
+          </div>
+          <div class="col-md p-5">
+            <h2>Learn The fundamentals</h2>
+            <p class="lead">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam
+              voluptate atque repellat sint accusamus consectetur!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa,
+              placeat odio debitis iste laborum quam. Alias beatae sapiente
+              perspiciatis saepe hic velit, fugiat at libero harum quod sint,
+              error rem.
+            </p>
+            <a href="" class="btn btn-light mt-3">
+              <i class="bi bi-chevron-right"></i>Read More
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="learn" class="p-5 bg-dark text-light">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md p-5">
+            <h2>White To Play</h2>
+            <h2>Can You Find Mate in 6?</h2>
+            <p class="lead">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam
+              voluptate atque repellat sint accusamus consectetur!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa,
+              placeat odio debitis iste laborum quam. Alias beatae sapiente
+              perspiciatis saepe hic velit, fugiat at libero harum quod sint,
+              error rem.
+            </p>
+            <a href="" class="btn btn-light mt-3">
+              <i class="bi bi-chevron-right"></i>Read More
+            </a>
+          </div>
+          <div class="col-md">
+            <img src="img/mate-in-6.png" class="img-fluid" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Question Accordion -->
+    <section id="questions" class="p-5"></section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
